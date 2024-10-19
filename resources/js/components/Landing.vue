@@ -490,7 +490,7 @@ export default {
             max-width: 650px;
             min-width: 350px;
             @media (max-width: 1300px) {
-                max-width: 550px; 
+                max-width: 550px;
             }
             @media (max-width: 960px) {
                 width: 110%;
@@ -549,18 +549,18 @@ export default {
     }
 
     .short-name {
-        @media screen and(min-width: 900px) {
+        @media screen and (min-width: 900px) {
             display: none;
         }
 
-        @media screen and(max-width: 700px) {
+        @media screen and (max-width: 700px) {
             display: none;
         }
     }
 
     .name {
         max-width: 6em;
-        @media screen and(max-width: 900px) {
+        @media screen and (max-width: 900px) {
             display: none;
         }
     }

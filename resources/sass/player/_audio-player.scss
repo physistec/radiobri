@@ -66,11 +66,11 @@
             min-width: 300px;
             align-items: center;
             color: $light-theme-text-color;
-            @media screen and(max-width: 750px) {
+            @media screen and (max-width: 750px) {
                 min-width: 250px;
                 padding-right: 0em;
             }
-            @media screen and(max-width: 650px) {
+            @media screen and (max-width: 650px) {
                 min-width: 220px;
             }
             @include sm {
@@ -90,7 +90,7 @@
                 @include sm {
                     display: none;
                 }
-                @media screen and(max-width: 800px) {
+                @media screen and (max-width: 800px) {
                     padding: 0.35em 0em 0 0.5rem;
                 }
             }
@@ -169,7 +169,7 @@
             .epico_progressbar-container {
                 max-width: 75%;
                 margin: 0 auto;
-                @media screen and(max-width: 800px) {
+                @media screen and (max-width: 800px) {
                     max-width: 85%;
                 }
             }
@@ -191,11 +191,11 @@
                     margin-left: 0.5rem;
                 }
             }
-            @media screen and(max-width: 900px) {
+            @media screen and (max-width: 900px) {
                 flex-direction: column;
             }
             .epico_volumebar-container {
-                @media screen and(max-width: 800px) {
+                @media screen and (max-width: 800px) {
                     width: 70px;
                 }
             }
@@ -318,7 +318,7 @@
         .svg {
             width: 2.2rem;
             height: 2.2rem;
-            @media screen and(max-width: 900px) {
+            @media screen and (max-width: 900px) {
                 width: 2rem;
                 height: 2rem;
             }
@@ -341,7 +341,7 @@
     .random-button,
     .repeat-button {
         i {
-            @media screen and(max-width: 900px) {
+            @media screen and (max-width: 900px) {
                 font-size: 16px !important;
             }
         }
@@ -407,7 +407,7 @@
 .current-audio-time,
 .current-audio-duration {
     color: $light-theme-text-color;
-    @media screen and(max-width: 900px) {
+    @media screen and (max-width: 900px) {
         font-size: 12px;
     }
 }
@@ -1173,7 +1173,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and(max-width: 900px) {
+    @media screen and (max-width: 900px) {
         width: 60px;
     }
     .img {
@@ -1257,7 +1257,7 @@
   -ms-animation: 1s blink ease infinite;
   -o-animation: 1s blink ease infinite;
   animation: 1s blink ease infinite;
-  
+
 }
 
 .blinking {
@@ -1266,7 +1266,7 @@
     -ms-animation: 1s blink ease infinite;
     -o-animation: 1s blink ease infinite;
     animation: 1s blink ease infinite;
-    
+
   }
 
   @keyframes blink {
@@ -1277,7 +1277,7 @@
       opacity: 1;
     }
   }
-  
+
   @-moz-keyframes blink {
     from, to {
       opacity: 0;
@@ -1286,7 +1286,7 @@
       opacity: 1;
     }
   }
-  
+
   @-webkit-keyframes blink {
     from, to {
       opacity: 0;
@@ -1295,7 +1295,7 @@
       opacity: 1;
     }
   }
-  
+
   @-ms-keyframes blink {
     from, to {
       opacity: 0;
@@ -1304,7 +1304,7 @@
       opacity: 1;
     }
   }
-  
+
   @-o-keyframes blink {
     from, to {
       opacity: 0;

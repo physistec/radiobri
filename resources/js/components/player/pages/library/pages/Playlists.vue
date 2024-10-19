@@ -291,7 +291,7 @@ export default {
 <style lang="scss" scoped>
 .playlists-wrapper {
     padding: 0 1rem;
-    @media screen and( max-width: 600px) {
+    @media screen and (max-width: 600px) {
         padding-top: 2em;
     }
 }

@@ -21,7 +21,7 @@
         }
     }
     #bottom-nav {
-        @media screen and( min-width: 600px) {
+        @media screen and (min-width: 600px) {
             display: none;
         }
     }
@@ -125,7 +125,7 @@
     //     }
     // }
 
-    @media screen and( max-width: 900px) {
+    @media screen and (max-width: 900px) {
         width: 5.5em;
     }
     @include sm {
@@ -144,7 +144,7 @@
     padding: 0 0.3em;
     top: 2.2em;
     flex-direction: column;
-    
+
 }
 .sidebar-item {
     display: flex !important;

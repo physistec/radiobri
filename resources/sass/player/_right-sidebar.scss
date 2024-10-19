@@ -14,7 +14,7 @@
     flex-direction: column;
     background-color: $light-theme-panel-bg-color;
     border-left: $thin-border;
-    // @media screen and( max-width: 1400px) {
+    // @media screen and (max-width: 1400px) {
     //     max-width: 15em;
     // }
     .right-sidebar-toggle {
@@ -32,7 +32,7 @@
             display: none;
         }
     }
-    @media screen and( max-width: 900px) {
+    @media screen and (max-width: 900px) {
         position: absolute;
         right: 0;
         z-index: 55;

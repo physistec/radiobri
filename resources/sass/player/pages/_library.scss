@@ -94,7 +94,7 @@
 .artist-wrapper,
 .playlists-wrapper,
 .local_songs-wrapper {
-    @media screen and( max-width: 600px) {
+    @media screen and (max-width: 600px) {
         padding-top: 2em;
         padding-bottom: 6em;
     }
@@ -109,7 +109,7 @@
                 margin-right: 1rem;
             }
         }
-        @media screen and( max-width: 600px) {
+        @media screen and (max-width: 600px) {
             padding: 0em 1em;
         }
     }
