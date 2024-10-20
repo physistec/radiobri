@@ -93,7 +93,7 @@
 .user {
     display: flex;
     align-items: center;
-    color: $light-theme-text-color;
+    color: var(--light-theme-text-color);
     .upgrade-account {
         display: flex;
         align-items: center;
@@ -223,7 +223,7 @@
 
 .player--dark {
     .user {
-        color: $dark-theme-text-color;
+        color: var(--dark-theme-text-color);
     }
 }
 

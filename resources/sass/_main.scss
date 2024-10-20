@@ -1,5 +1,5 @@
-@use "fonts";
 @use "variables";
+@use "fonts";
 @use "mixins";
 @use "utilities";
 @use "defaults";
@@ -36,7 +36,7 @@
     padding-top: 3em;
     padding-bottom: 6em;
     .icon-header {
-        color: $light-theme-text-color;
+        color: var(--light-theme-text-color);
         display: flex;
         padding-bottom: 3em;
         .cover {
@@ -60,14 +60,14 @@
             .sub {
                 opacity: .9;
                 font-size: 0.85em;
-                color: $light-theme-text-color;
+                color: var(--light-theme-text-color);
             }
         }
     }
 }
 .absolute-panel {
-    background-color: $light-theme-panel-bg-color;
-    color: $light-theme-text-color;
+    background-color: var(--light-theme-panel-bg-color);
+    color: var(--light-theme-text-color);
     box-shadow: 2px 0 0 rgba(116, 101, 255, 0.25),
         2px 0 0 rgba(116, 101, 255, 0.25), 0px 2px 0 rgba(116, 101, 255, 0.25),
         0px 2px 0 rgba(116, 101, 255, 0.25), 1px 0px 0 rgba(116, 101, 255, 0.25),
@@ -112,7 +112,7 @@
     margin-bottom: 0.8rem;
     font-size: 1.35rem;
     font-weight: bold;
-    color: $light-theme-text-color;
+    color: var(--light-theme-text-color);
 }
 
 .vue-content-placeholders-img,

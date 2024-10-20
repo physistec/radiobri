@@ -8,7 +8,7 @@
                 background-color: rgba(0, 0, 0, 0.4);
             }
             .infos-layer {
-                color: $dark-theme-text-color;
+                color: var(--dark-theme-text-color);
                 .overlay {
                     background: -webkit-linear-gradient(
                         top,
@@ -39,13 +39,13 @@
     }
 
     .router-link {
-        color: $dark-theme-text-color !important;
+        color: var(--dark-theme-text-color) !important;
         &__white {
             color: white !important;
         }
     }
     .page-title-medium {
-        color: $dark-theme-text-color;
+        color: var(--dark-theme-text-color);
     }
     .vue-content-placeholders-img,
     .vue-content-placeholders-text__line {
@@ -60,13 +60,13 @@
         }
     }
     .absolute-panel {
-        background-color: $dark-theme-panel-bg-color;
-        color: $dark-theme-text-color;
-        border: 1px solid rgba($dark-theme-text-color, 0.5);
+        background-color: var(--dark-theme-panel-bg-color);
+        color: var(--dark-theme-text-color);
+        border: 1px solid rgba(var(--dark-theme-text-color), 0.5);
         box-shadow: none;
     }
     .card-title {
-        color: $dark-theme-text-color;
+        color: var(--dark-theme-text-color);
     }
     .m_input,
     .theme--light.v-application .m_input {
@@ -74,34 +74,34 @@
         background-color: #eee;
     }
     .sub {
-        color: $dark-theme-text-color;
+        color: var(--dark-theme-text-color);
         opacity: 0.8;
     }
     .sub a {
-        color: $dark-theme-text-color !important;
+        color: var(--dark-theme-text-color) !important;
         opacity: 0.8;
     }
     input {
         color: #f5f5f5;
     }
     .panel {
-        background-color: $dark-theme-panel-bg-color !important;
+        background-color: var(--dark-theme-panel-bg-color) !important;
     }
     .content-page {
         .icon-header {
-            color: $dark-theme-text-color;
+            color: var(--dark-theme-text-color);
             .title {
                 .sub {
-                    color: $dark-theme-text-color;
+                    color: var(--dark-theme-text-color);
                 }
             }
         }
     }
-    
+
     .vc-container, .vc-btn {
-        background-color: $dark-theme-panel-bg-color !important;
+        background-color: var(--dark-theme-panel-bg-color) !important;
         .vc-text {
-            color: $dark-theme-text-color !important;
+            color: var(--dark-theme-text-color) !important;
         }
     }
 }
@@ -112,7 +112,7 @@
     .theme--dark.v-list,
     .v-list .v-select-list,
     .theme--dark.v-bottom-navigation {
-        background-color: $dark-theme-panel-bg-color !important;
+        background-color: var(--dark-theme-panel-bg-color) !important;
     }
 }
 
@@ -120,5 +120,5 @@
 
 
 .dark-backround {
-    background-color: $dark-theme-panel-bg-color !important;
+    background-color: var(--dark-theme-panel-bg-color) !important;
 }

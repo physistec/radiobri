@@ -433,7 +433,7 @@
     width: 100%;
 }
 .info-badge {
-    background: $color-primary;
+    background: var(--color-primary);
     color: white;
     display: inline;
     text-transform: uppercase;
@@ -450,11 +450,11 @@
         font-size: 1.16em;
     }
     font-weight: 500;
-    color: $light-theme-text-color;
+    color: var(--light-theme-text-color);
 }
 
 .router-link {
-    color: $light-theme-text-color !important;
+    color: var(--light-theme-text-color) !important;
     cursor: pointer;
     text-decoration: none;
     &:hover {
@@ -473,7 +473,7 @@
     & > * {
         text-align: center;
         margin: 0 0.2rem;
-        color: $light-theme-text-color;
+        color: var(--light-theme-text-color);
         opacity: 0.8;
         &::before,
         &::after {
@@ -483,7 +483,7 @@
             margin: 0 0.4rem;
             margin-bottom: 0.25rem;
             height: 1px;
-            background-color: $light-theme-text-color;
+            background-color: var(--light-theme-text-color);
             opacity: 0.8;
         }
     }
@@ -595,12 +595,12 @@
 .sub {
     font-size: 0.9em;
     font-weight: 400;
-    color: $light-theme-text-color;
+    color: var(--light-theme-text-color);
     opacity: 0.8;
 }
 .sub a {
     text-decoration: none !important;
-    color: $light-theme-text-color !important;
+    color: var(--light-theme-text-color) !important;
     opacity: 0.8;
     &:hover {
         text-decoration: underline !important;

@@ -7,7 +7,7 @@
     margin-bottom: 2.5em;
 }
 .section-header {
-    border-bottom: 1px solid rgba($color-primary, 0.3);
+    border-bottom: 1px solid rgba(var(--color-primary), 0.3);
     display: flex;
     width: 97.5%;
     font-size: 1.15rem;
@@ -25,7 +25,7 @@
         border-bottom: none;
         .section-header__title {
             font-size: 1.3em;
-            color: $light-theme-text-color;
+            color: var(--light-theme-text-color);
         }
         @media screen and (min-width: 600px) {
             display: none;
@@ -57,11 +57,11 @@
 .theme--dark.v-application {
     .section-header {
         &__title {
-            color: $dark-theme-text-color;
+            color: var(--dark-theme-text-color);
         }
         &-small-screen {
             .section-header__title {
-                color: $dark-theme-text-color;
+                color: var(--dark-theme-text-color);
             }
         }
     }

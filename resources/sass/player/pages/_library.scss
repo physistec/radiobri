@@ -52,7 +52,7 @@
                 width: 100%;
                 min-width: 10rem;
                 a {
-                    color: $light-theme-text-color;
+                    color: var(--light-theme-text-color);
                     text-decoration: none;
                 }
                 list-style: none;

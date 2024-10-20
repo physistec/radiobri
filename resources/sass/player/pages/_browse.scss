@@ -1,7 +1,7 @@
 @import "../../variables";
 .browse-container {
     .icon-header > .cover {
-        background: linear-gradient(45deg, $color-secondary, $color-primary);
+        background: linear-gradient(45deg, $color-secondary, var(--color-primary));
     }
     .options-menu {
         ul {
@@ -19,7 +19,7 @@
                     margin-right: 1rem;
                 }
                 a {
-                    color: $light-theme-text-color;
+                    color: var(--light-theme-text-color);
                     font-weight: 600;
                     font-size: 1rem;
                     &:hover,
@@ -36,7 +36,7 @@
                 background: linear-gradient(
                     45deg,
                     $color-secondary,
-                    $color-primary
+                    var(--color-primary)
                 );
                 position: absolute;
                 top: 100%;

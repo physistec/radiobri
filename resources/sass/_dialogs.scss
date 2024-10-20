@@ -344,11 +344,11 @@ hr {
 .section-skeleton {
     margin: 1em 0;
     position: relative;
-    background-color: $light-theme-panel-bg-color !important;
+    background-color: var(--light-theme-panel-bg-color) !important;
     .section-header {
         display: flex;
         position: relative;
-        background-color: $light-theme-panel-bg-color !important;
+        background-color: var(--light-theme-panel-bg-color) !important;
         z-index: 2;
         padding: 0.2em 0.2em 0.2em 1em;
         justify-content: space-between;
@@ -360,7 +360,7 @@ hr {
         border-radius: 5px;
         cursor: pointer;
         padding-bottom: 1em;
-        background-color: $light-theme-panel-bg-color !important;
+        background-color: var(--light-theme-panel-bg-color) !important;
         z-index: 1;
         &__drag {
             left: 10px;
@@ -375,7 +375,7 @@ hr {
 
     .section-body {
         padding: 0.8em 1em;
-        background-color: $light-theme-panel-bg-color !important;
+        background-color: var(--light-theme-panel-bg-color) !important;
         .section-item {
             width: 12em !important;
             height: 12em !important;
@@ -574,15 +574,15 @@ hr {
 
 .theme--dark.v-application {
     .section-skeleton {
-        background-color: $dark-theme-panel-bg-color !important;
+        background-color: var(--dark-theme-panel-bg-color) !important;
         .section-header {
-            background-color: $dark-theme-panel-bg-color !important;
+            background-color: var(--dark-theme-panel-bg-color) !important;
         }
         .section-option {
-            background-color: $dark-theme-panel-bg-color !important;
+            background-color: var(--dark-theme-panel-bg-color) !important;
         }
         .section-body {
-            background-color: $dark-theme-panel-bg-color !important;
+            background-color: var(--dark-theme-panel-bg-color) !important;
         }
     }
 }

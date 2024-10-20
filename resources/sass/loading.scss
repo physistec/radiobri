@@ -10,7 +10,7 @@ $speed: 1.3s;
     height: 100px;
     span {
         display: block;
-        background: $color-primary;
+        background: var(--color-primary);
         width: 7px;
         height: 10%;
         border-radius: 14px;
@@ -74,7 +74,7 @@ $speed: 1.3s;
         height: 10%;
     }
     50% {
-        background: $color-primary;
+        background: var(--color-primary);
         height: 100%;
         margin-top: 0%;
     }

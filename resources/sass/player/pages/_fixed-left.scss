@@ -99,7 +99,7 @@
 .displayname,
 .podcast-title {
     font-size: 1.3rem;
-    color: $light-theme-text-color;
+    color: var(--light-theme-text-color);
     font-weight: 700;
     max-width: 100%;
 }
