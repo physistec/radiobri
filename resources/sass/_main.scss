@@ -1,23 +1,23 @@
-@import "fonts";
-@import "variables";
-@import "mixins";
-@import "utilities";
-@import "defaults";
+@use "fonts";
+@use "variables";
+@use "mixins";
+@use "utilities";
+@use "defaults";
 
-@import 'loading';
+@use 'loading';
 
-@import "content-item";
+@use "content-item";
 
-@import "swiper-section";
+@use "swiper-section";
 
-@import "3rd-party-style-mutation";
-@import "scrollbar";
+@use "3rd-party-style-mutation" as thirdParty;
+@use "scrollbar";
 
-@import "billing";
+@use "billing";
 
-@import "dialogs";
+@use "dialogs";
 
-@import "dark-theme";
+@use "dark-theme";
 
 
 .analytic-info-card {
